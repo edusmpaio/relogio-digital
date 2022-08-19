@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  background: linear-gradient(90deg, #cfd9df, #e2ebf0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 20rem;
+  width: 55rem;
+  background: transparent;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+}
+
+.clock div {
+  height: 17rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: rgba(5, 5, 5, 0.8);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.clock span {
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+.clock span.time {
+  font-size: 1.5rem;
+  font-weight: initial;
+  letter-spacing: 0.1rem;
+}
