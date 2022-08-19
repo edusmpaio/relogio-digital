@@ -19,4 +19,3 @@ const clock = setInterval(function time() {
   documentSeconds.textContent = seconds;
 });
 
-console.log("teste");
